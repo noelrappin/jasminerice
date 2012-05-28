@@ -9,7 +9,7 @@
   jasmineEnv.updateInterval = 1000
 
   window.jsApiReporter = new jasmine.JsApiReporter()
-  trivialReporter = new jasmine.TrivialReporter()
+  trivialReporter = new jasmine.HtmlReporter()
 
   jasmineEnv.addReporter trivialReporter
   jasmineEnv.addReporter jsApiReporter
